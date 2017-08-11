@@ -191,7 +191,8 @@ nav {
   }
 
   .left {
-    width: 100%;
+    margin-left: 5%;
+    width: 90%;
   }
 
   .right {
