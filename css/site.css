@@ -3,6 +3,7 @@ html, body {
   font-family: 'Crimson Text', serif;
   height: 100%;
   margin: 0;
+  width: 100%;
 }
 
 .breadcrumb {
@@ -92,7 +93,6 @@ nav {
   right: 0;
   position: absolute;
   top: 0;
-  width: 200%;
 }
 
 .page-content {
