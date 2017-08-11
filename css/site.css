@@ -1,0 +1,171 @@
+html, body {
+  background-color: white;
+  font-family: 'Crimson Text', serif;
+  height: 100%;
+  margin: 0;
+}
+
+.breadcrumb {
+  background: white;
+  border-color: #9b9b9b;
+}
+
+.breadcrumb li a {
+  color: black;
+}
+
+hr {
+  border-color: black;
+}
+
+.icon {
+  color: black;
+  font-size: 20px;
+}
+
+.indent {
+  font-size: 18px;
+  margin-left: 60px;
+}
+
+.jumbotron {
+  background-size: cover;
+  height: 450px;
+  padding: 120px 80px;
+}
+
+#jumbo-home {
+  background-image: url(../img/pexels-photo-110854.jpeg);
+  color: white;
+  padding: 70px 80px 50px 80px;
+}
+
+#jumbo-exp {
+  background-image: url(../img/pexels-photo-325229.jpeg);
+}
+
+#jumbo-edu {
+  background-image: url(../img/pexels-photo-267586.jpeg);
+}
+
+#jumbo-res {
+  background-image: url(../img/sackcloth-sackcloth-textured-laptop-ipad-159674.jpeg);
+}
+
+.left {
+  color: black;
+  height: 80%;
+  margin-left: 10%;
+  margin-top: -20px;
+  position: absolute;
+  text-align: center;
+  width: 20%;
+}
+
+.left h4 {
+  font-size: 18px;
+}
+
+.left h1 {
+  font-size: 30px;
+}
+
+.left hr {
+  border-color: black;
+}
+
+.left p {
+  font-size: 16px;
+}
+
+#left-details {
+  font-size: 15px;
+  margin-top: 5%;
+  text-align: left;
+  padding-left: 8%;
+}
+
+nav {
+  font-size: 18px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+
+}
+
+.page-background {
+  background-color: #7c7c7c;
+  height: 565px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+}
+
+.page-content {
+  background-color: white;
+  color: black;
+  height: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  position: absolute;
+  top: 590px;
+}
+
+.page-content h2 {
+  font-size: 30px;
+}
+
+.page-content h4 {
+  font-size: 22px;
+}
+
+.page-content li {
+  font-size: 18px;
+}
+
+.page-content p {
+  font-size: 18px;
+}
+
+.page-jumbotron {
+  color: white;
+  left: 0;
+  margin: -2% 10%;
+  position: absolute;
+  right: 0;
+}
+
+#portrait {
+  border: 5px solid white;
+  border-radius: 50%;
+  height: auto;
+  max-height: 250px;
+  max-width: 250px;
+  width: auto;
+}
+
+#resume-title {
+  text-align: center;
+}
+
+.right {
+  height: auto;
+  margin-right: 10%;
+  position: absolute;
+  right: 0;
+  width: 58%;
+}
+
+.right-content {
+  border: 2px black solid;
+    background: white;
+    border-radius: 1%;
+    color: black;
+    padding: 20px 50px 20px 50px;
+}
+
+#site-info {
+  padding-left: 120px;
+  padding-right: 120px;
+}
