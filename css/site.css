@@ -16,6 +16,7 @@ html, body {
 
 hr {
   border-color: black;
+  width: 100%;
 }
 
 .icon {
@@ -29,6 +30,7 @@ hr {
 }
 
 .jumbotron {
+  background-position: center;
   background-size: cover;
   height: 450px;
   padding: 120px 80px;
@@ -54,9 +56,9 @@ hr {
 
 .left {
   color: black;
-  height: 80%;
+  height: auto;
   margin-left: 10%;
-  margin-top: -20px;
+  margin-top: 65px;
   position: absolute;
   text-align: center;
   width: 20%;
@@ -78,24 +80,25 @@ hr {
   font-size: 16px;
 }
 
-#left-details {
+/*#left-details {
   font-size: 15px;
   margin-top: 5%;
   text-align: left;
   padding-left: 8%;
-}
+}*/
 
 nav {
   font-size: 18px;
-  margin-left: 10%;
+  /*margin-left: 10%;
   margin-right: 10%;
-  margin-top: 2%;
+  margin-top: 2%;*/
 
+  position: static;
 }
 
 .page-background {
   background-color: #7c7c7c;
-  height: 565px;
+  height: 530px;
   left: 0;
   right: 0;
   position: absolute;
@@ -109,7 +112,7 @@ nav {
   margin-left: 20%;
   margin-right: 20%;
   position: absolute;
-  top: 590px;
+  top: 560px;
 }
 
 .page-content h2 {
@@ -131,7 +134,7 @@ nav {
 .page-jumbotron {
   color: white;
   left: 0;
-  margin: -2% 10%;
+  margin: 45px 10%;
   position: absolute;
   right: 0;
 }
@@ -152,6 +155,7 @@ nav {
 .right {
   height: auto;
   margin-right: 10%;
+  margin-top: 65px;
   position: absolute;
   right: 0;
   width: 58%;
@@ -168,4 +172,44 @@ nav {
 #site-info {
   padding-left: 120px;
   padding-right: 120px;
+}
+
+@media (max-width: 1200px) {
+  #jumbo-home {
+    padding: 120px 10px;
+  }
+
+  .left {
+    margin-left: 2%;
+    width: 30%;
+  }
+
+  .right {
+    margin-right: 2%;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-content {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .page-jumbotron {
+    margin: 45px 0;
+    padding: 120px 10px;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    display: none;
+  }
+
+  #site-info {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

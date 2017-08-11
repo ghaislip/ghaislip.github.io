@@ -11,24 +11,37 @@
 <body>
   <div class="page-background">
   </div>
-  <nav class="navbar navbar-inverse navbar-static-top">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Grant Haislip</a>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Grant Haislip</a>
+      </div>
+
+    <div class="navbar-collapse collapse" id="collapsed-navbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="pages/experience.html">Experience</a></li>
         <li><a href="pages/education.html">Education</a></li>
         <li><a href="pages/resume.html">Resume</a></li>
-      </div>
+      </ul>
+    </div>
     </div>
   </nav>
   <div class="left">
-    <hr>
     <img id="portrait" src="img/portrait.jpg" border=0>
     <h1>Grant Haislip</h1>
     <h4>Software Engineering Student at Auburn University</h4>
     <p>
       <i class="fa fa-home" aria-hidden="true"></i>
       Pelham, Alabama
+      <br />
+      <i class="fa fa-birthday-cake" aria-hidden="true"></i>
+      August 18, 1997
       </p>
     <a href="https://www.facebook.com/grant.haislip" class="icon"><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i></a>
     <a href="https://github.com/ghaislip" class="icon"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
@@ -40,17 +53,11 @@
       <hr />
       <h3>Thank you for visiting! Please contact me if you want more infomation</h3>
     </div>
-    <div>
-      <!--Add this later, right-content-->
-    </div>
     </div>
     <div class="page-content">
       <p id="site-info">
         I created this website to share my professional experience and education with others. I will expand this site (and probably update the look and implement a blog too)
         throughout my career. I feel that this will be especially important as I start my journey into the working world.
-        <br />
-        <br />
-        *Note: This site is currently not very responsive or mobile friendly
       </p>
       <h2>About Me</h2>
       <hr>
@@ -69,10 +76,11 @@
         internships in the two free summers I have left as well. Hopefully, my experience throughout college will allow me to become an excellent
         software engineer and have some fun along the way.
       </p>
-      <div class="dropdown">
       <ol class="breadcrumb">
         <li class="active">Home</li>
       </ol>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
